@@ -1,0 +1,607 @@
+p{
+    font-family: Arial;
+}
+.home-page{
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    position: relative;
+}     
+
+
+.home-img{
+   width: 100%;
+    
+
+}
+.text1{
+    position: absolute;
+    color: aliceblue;
+    left: 100px;
+    top: 140px;
+}
+.text2{
+    position: absolute;
+    color: aliceblue;
+    left: 100px;
+    top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xxx-large;
+    
+    
+}
+.text3{
+    position: absolute;
+    color: aliceblue;
+    left: 100px;
+    top: 170px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xxx-large;
+    
+    
+}
+.nissan-logo{
+    width: 70px;
+    position: absolute;
+    
+
+    left: 20px;
+    top: 20px;
+}
+.top-bar{
+    flex-direction: column;
+    
+    
+}
+.hr{
+    position: absolute;
+    top: 45px;
+    color: rgb(255, 255, 255);
+    right: 15px;
+    left: 130px ;
+    
+    border-top: none;
+    border-right: none;
+    
+
+
+}
+.topbar-buttons{
+
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    left: 380px;
+    right: 50px;
+    align-items: center;
+}
+button{
+    
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 9, 9,0);
+    border: none;
+
+}
+.menu-icon{
+    
+    width: 20px;
+
+}
+.menu-button{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.top-sub-bar{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 9, 9,0);
+    top: 58px;
+    left: 130px;
+}
+.sub-bar-buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 20px;
+    left: 735px;
+    top: 60px;
+    justify-content: space-between;
+    height: 25px;
+}   
+
+/* 2nd page======================================================*/
+
+.screen2{
+    background-color: rgb(218, 216, 216);
+    display: flex;
+    height: 700px;
+    position: relative;
+    margin-left: -8px;
+    margin-right: -8px
+}
+.screen2-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+
+}
+.screen2-text2{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    top: 55px;
+    color: dimgray;
+    left: 100px ;
+}
+.button-text{
+    position: absolute;
+    color: rgb(82, 82, 82);
+    top: 365px;
+    left: 80px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.gtr-png{
+    position: absolute;
+    width: 500px;
+    height: 230px;
+    right: 200px;
+    top: 220px;
+    
+}
+.color-buttons{
+    position: absolute;
+    left: 110px;
+    bottom: 240px;
+
+}
+.left-arrow{
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    position: absolute;
+    left: -35px;
+    top: 5px;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(218, 216, 216);
+    
+
+}
+.color-1{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+   ;
+}
+.color-2{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    
+
+}
+.color-3{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: rgb(131, 73, 2);
+}
+.color-4{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    
+}
+
+.color-5{
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+}
+.right-arrow{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    font-size: large;
+    border-radius: 30px;
+    top: 6px;
+    color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(218, 216, 216);
+    right: -35px;
+}
+.bottom-button1{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.bottom-butt1{
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 400px;
+    bottom: 77px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgb(168, 16, 16);
+
+   
+}
+.bottom-but2{
+    position: absolute;
+    text-align: left;
+    left: 701px;
+    width: 270px;
+    height: 48px;
+    bottom: 77px;
+    padding-left: 20px;
+    background-color: rgb(168, 16, 16);
+    
+}
+
+
+/* page 3========================================================*/
+.screen3{
+    margin-left: -8px;
+     margin-top: -8px;
+     margin-right: -8px;
+     position: relative;
+ 
+ }
+ .screen3-img {
+     max-width: 100%;
+     
+   }
+ 
+ 
+ .content1{
+     position:absolute;
+     display: flex;
+     flex-direction: column;
+     left: 110px;
+     top: 50px;
+     
+     column-gap: 20px;
+     width: 500px;
+     height: 200px;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: rgb(248, 244, 244);
+    
+ }
+ .screen3-text1{
+ font-size:500 ;
+ padding-left: 20px;
+ 
+ 
+ }
+ .screen3-text2{
+     
+     font-size: 30px;
+     padding-left: 20px;
+     margin: 0px;
+     
+     
+ }
+ .screen3-text3{
+     font-size: 15px;
+     padding-left: 20px;
+ }
+ /* screen4==================================================*/
+.screen4{
+    
+}
+ .screen4-text1{
+    font-size: 19.5px;
+    padding-left: 100px;
+    color: rgb(61, 61, 61);
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+.s4-pics{
+    
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 500px;
+}
+.s4-img1{
+    width: 370px;
+}
+
+.s4-pic1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title1{
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+    
+}
+.s4pic-info{
+   
+   display: flex;
+   flex-direction: column;
+   
+}
+.s4-text1{
+    padding-left: 20px;
+    margin: 3px;
+    font-size: 14px;
+    width: 350px;
+    font-weight: bold;
+    color: rgb(75, 75, 75);
+   
+}
+.s4-bottomtext{
+    display: flex;
+   height: 150px;
+   width: 1200px;
+   margin-left: 100px;
+   
+   
+  
+}
+
+.bottomhead1{
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-top: -10px;
+font-weight: 100;
+}
+.s4-bottomhead{
+    display: flex;
+    width: 98px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.bottomcontent-s4{
+    font-size: 15px;
+}
+/* s5========================================================*/
+.s5-img{
+    margin-top: 50px;
+    max-width: 101%;
+    margin-left: -7px;
+    
+}
+/* screen6=============================================================*/
+.screen6{
+    position: relative;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-left: 120px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.screen6-img1{
+    width: 530px;
+}
+.s6-img1{
+    display: flex;
+    flex-direction: column;
+    height: 467px;
+  }
+
+
+
+.screen6-imgcontent{
+    height: 500px;
+    color: rgb(85, 85, 85);
+}
+.screen6-head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+.s6-content{
+    margin-top: -12px;
+}
+.bottom-buttons6{
+    position: absolute;
+bottom: -30px;
+left: 450px;
+width: 270px;
+height: 48px;
+padding-left: 20px;
+background-color: rgb(168, 16, 16);
+}
+/*===========================================================*/
+
+.screen7{
+    display: flex;
+    
+    max-width: 100%;
+    margin-left: 120px;
+    height: 100px;
+    margin-right: 120px;
+    margin-top: 80px;
+    flex-direction: column;
+    position: relative;
+    color: rgb(53, 52, 52);
+
+
+
+}
+.h1s7{
+    margin-top: 0px;
+    margin-bottom: -15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h2s7{
+    margin-left: 0px;
+margin-top: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 250;
+}
+.s7text{
+    position: absolute;
+  position: absolute;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  top: 39px;
+  
+}
+
+.img-s7{
+
+max-width: 100%;
+background-color: aquamarine;
+}
+/*==========================================================*/
+
+.screen8{
+    display: flex;
+    height: 500px;
+   color: rgb(77, 73, 73);
+    flex-direction: row;
+    row-gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.s8-content{
+    margin-top: 43px;
+    padding-left: 20px;
+    width: 12px;
+    
+}
+
+/*===============================================================*/
+.screen9{
+    display: flex;
+    width: 1170px;
+    margin-left: 90px;
+    height: 154px;
+    position: relative;
+    flex-direction: row;
+    color: rgb(90, 90, 90);
+}
+
+.s9-h1{
+position: absolute;
+top: -24px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s9-h2{
+    position: absolute;
+    left: 0px;
+    top: -10px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s9-p1{
+    position: absolute;
+    top: 30px;
+}
+.s9-img1{
+    width: 102%;
+margin-left: -19px;
+}
+/*============================================================================*/
+.screen10{
+    display: flex;
+
+    height: 500px;
+    flex-direction:row ;
+    position: relative;
+    
+}
+.s10-img1{
+    height: 385px;
+    width: 770px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+.s10-text1{
+    position: absolute;
+    width: 360px;
+    height: 370px;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(54, 54, 54);
+    top: 30px;
+}
+.s10-h1{
+   font-weight: 400;
+
+}   
+.s10-butt{
+    display: flex;
+    background-color: rgb(158, 12, 12);
+    margin-left: 633px;
+    margin-right: 550px;
+    
+}
+.s10-button{
+height: 40px;
+padding-left: 40px;
+
+}
+/*============================================================================*/
+.contact{
+    display: flex;
+    flex-direction:row;
+    
+    height: 500px;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 100px;
+}
+.s11-h1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: -1px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s11-content{
+    position: absolute;
+    TOP: 55PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.s10-h3{
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.s11-img1{
+position: absolute;
+width: 220px;
+left: 360px;
+top: 285px;
+}
+.s11-img2{
+position: absolute;
+width: 220px;
+left: 653px;
+top: 285px;
+    }
+/*==================================================*/
+.footer{
+    max-width: 101%;
+    margin-left: -8px;
+    
+}
